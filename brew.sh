@@ -22,6 +22,7 @@ brew tap homebrew/cask-fonts
 
 echo "Installing binaries..."
 brew install ansible
+brew install composer
 brew install git
 brew install imagemagick --with-webp
 brew install nvm
