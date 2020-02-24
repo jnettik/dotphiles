@@ -32,6 +32,7 @@ brew install wget
 
 echo "Installing apps..."
 brew cask install 1password
+brew cask install adobe-creative-cloud
 brew cask install alfred
 brew cask install docker
 brew cask install dropbox
@@ -39,15 +40,18 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install hyper
 brew cask install microsoft-edge
+brew cask install moom
 brew cask install ngrok
 brew cask install postman
 brew cask install sketch
 brew cask install skype
 brew cask install slack
 brew cask install spotify
+brew cask install spotify-notifications
 brew cask install tableplus
 brew cask install vagrant
 brew cask install vagrant-manager
+brew cask install virtualbox
 brew cask install zoomus
 
 echo "Installing fonts..."
