@@ -14,7 +14,6 @@ fi
 echo "Updating Homebrw and packages..."
 brew update
 brew upgrade
-BREW_PREFIX=$(brew --prefix)
 
 echo "Tapping Homebrew casks..."
 brew tap caskroom/cask
