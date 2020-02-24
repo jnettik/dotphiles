@@ -25,6 +25,7 @@ brew install ansible
 brew install composer
 brew install git
 brew install imagemagick --with-webp
+brew install mas
 brew install nvm
 brew install php
 brew install the_silver_searcher
@@ -42,7 +43,6 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install hyper
 brew cask install microsoft-edge
-brew cask install moom
 brew cask install ngrok
 brew cask install postman
 brew cask install sketch
@@ -55,6 +55,11 @@ brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install virtualbox
 brew cask install zoomus
+
+echo "Installing apps from App Store..."
+mas install 419330170 # Moom
+mas install 585829637 # Todoist
+mas install 497799835 # XCode
 
 echo "Installing fonts..."
 brew cask install font-open-sans
