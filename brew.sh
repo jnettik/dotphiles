@@ -29,6 +29,8 @@ brew install nvm
 brew install php
 brew install the_silver_searcher
 brew install wget
+brew install zsh
+brew install zsh-completions
 
 echo "Installing apps..."
 brew cask install 1password
