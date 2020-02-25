@@ -1,0 +1,21 @@
+[user]
+  name = James Nettik
+  email = james@atendesigngroup.com
+[alias]
+  co = checkout
+  br = branch -v
+  st = status -s
+  cm = commit
+  push-all = push --all
+  pa = push-all
+  lsd = log --oneline --abbrev-commit --all --graph --decorate --color
+  patch = "!git diff \"$1\" HEAD > \"$2\"-\"$3\".patch #"
+[color]
+  status = auto
+  ui = true
+[core]
+  excludesfile = /Users/jnettik/.gitignore
+	editor = vim
+[push]
+  default = matching
+
