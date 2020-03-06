@@ -52,6 +52,7 @@ brew cask install spotify-notifications
 brew cask install tableplus
 brew cask install vagrant
 brew cask install vagrant-manager
+brew cask install visual-studio-code
 brew cask install virtualbox
 brew cask install zoomus
 
