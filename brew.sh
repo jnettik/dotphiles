@@ -17,11 +17,13 @@ brew upgrade
 
 echo "Tapping Homebrew casks..."
 brew tap caskroom/cask
+brew tap drud/ddev
 brew tap homebrew/cask-fonts
 
 echo "Installing binaries..."
 brew install ansible
 brew install composer
+brew install ddev
 brew install git
 brew install imagemagick --with-webp
 brew install mas
@@ -38,11 +40,13 @@ brew cask install adobe-creative-cloud
 brew cask install alfred
 brew cask install docker
 brew cask install dropbox
+brew cask install figma
 brew cask install firefox
 brew cask install google-chrome
 brew cask install hyper
 brew cask install microsoft-edge
 brew cask install ngrok
+brew cask install notion
 brew cask install postman
 brew cask install sketch
 brew cask install skype
@@ -58,7 +62,6 @@ brew cask install zoomus
 
 echo "Installing apps from App Store..."
 mas install 419330170 # Moom
-mas install 585829637 # Todoist
 mas install 497799835 # XCode
 
 echo "Installing fonts..."
